@@ -62,7 +62,7 @@ app.use(rewriteUnsupportedBrowserMethods);
 
 app.use(require("cookie-parser")());
 app.use(express_session({
-    secret: 'cs546 final project',
+    secret: 'spenja',
     resave: true,
     saveUninitialized: true
 }));
